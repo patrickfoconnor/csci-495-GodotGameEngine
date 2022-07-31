@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="BrickBreaker"
-run/main_scene="res://Levels/Level01.tscn"
+run/main_scene="res://Levels/level01/Level01.tscn"
 config/icon="res://icon.png"
 
 [display]

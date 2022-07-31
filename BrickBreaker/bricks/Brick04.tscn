@@ -1,29 +1,29 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://art/bricks/level_01_fresh.png" type="Texture" id=1]
-[ext_resource path="res://art/bricks/level_01_broken.png" type="Texture" id=2]
-[ext_resource path="res://Brick01.gd" type="Script" id=3]
+[ext_resource path="res://art/bricks/level_04_fresh.png" type="Texture" id=1]
+[ext_resource path="res://art/bricks/level_04_broken.png" type="Texture" id=2]
+[ext_resource path="res://bricks/Brick01.gd" type="Script" id=3]
 
 [sub_resource type="RectangleShape2D" id=3]
 extents = Vector2( 49, 17 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 1 ) ],
-"loop": false,
-"name": "brick01",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 2 ) ],
 "loop": true,
-"name": "brick01_broke",
+"name": "brick04_broke",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 1 ) ],
+"loop": false,
+"name": "brick04",
 "speed": 5.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 47, 15 )
 
-[node name="Brick01" type="KinematicBody2D"]
+[node name="Brick04" type="KinematicBody2D"]
 position = Vector2( 400, 300 )
 script = ExtResource( 3 )
 __meta__ = {
@@ -31,17 +31,19 @@ __meta__ = {
 Blue in color and has 3 hitpoints before disappearing"
 }
 
-[node name="Brick01Area" type="Area2D" parent="."]
+[node name="Brick04Area" type="Area2D" parent="."]
 collision_layer = 2
 collision_mask = 3
 
-[node name="Brick01CollisionShape2D" type="CollisionShape2D" parent="Brick01Area"]
+[node name="Brick04CollisionShape2D" type="CollisionShape2D" parent="Brick04Area"]
 shape = SubResource( 3 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -200, 403 )
 scale = Vector2( 0.25, 0.25 )
 frames = SubResource( 2 )
-animation = "brick01"
+animation = "brick04"
+offset = Vector2( 800, -1612 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 4 )
@@ -50,4 +52,4 @@ __meta__ = {
 Green in color and has 4 hitpoints before disappearing"
 }
 
-[connection signal="body_entered" from="Brick01Area" to="." method="_is_hit_01"]
+[connection signal="body_entered" from="Brick04Area" to="." method="_is_hit_01"]

@@ -1,22 +1,22 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://art/bricks/level_02_broken.png" type="Texture" id=1]
-[ext_resource path="res://art/bricks/level_02_fresh.png" type="Texture" id=2]
-[ext_resource path="res://Brick02.gd" type="Script" id=3]
+[ext_resource path="res://bricks/Brick02.gd" type="Script" id=1]
+[ext_resource path="res://art/bricks/level_05_broken.png" type="Texture" id=2]
+[ext_resource path="res://art/bricks/level_05_fresh.png" type="Texture" id=3]
 
 [sub_resource type="RectangleShape2D" id=3]
 extents = Vector2( 49, 17 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 2 ) ],
+"frames": [ ExtResource( 3 ) ],
 "loop": false,
-"name": "brick02",
+"name": "brick05",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 1 ) ],
+"frames": [ ExtResource( 2 ) ],
 "loop": false,
-"name": "brick02_broke",
+"name": "brick05_broke",
 "speed": 5.0
 } ]
 
@@ -25,7 +25,7 @@ extents = Vector2( 47, 15 )
 
 [node name="Brick02" type="KinematicBody2D"]
 position = Vector2( 400, 300 )
-script = ExtResource( 3 )
+script = ExtResource( 1 )
 __meta__ = {
 "_editor_description_": "Brick Type 02 
 Green in color and has 4 hitpoints before disappearing"
@@ -44,7 +44,7 @@ shape = SubResource( 3 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 0.25, 0.25 )
 frames = SubResource( 2 )
-animation = "brick02"
+animation = "brick05"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 4 )

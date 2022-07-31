@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Main.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Brick01.tscn" type="PackedScene" id=2]
+[ext_resource path="res://bricks/Brick01.tscn" type="PackedScene" id=2]
 [ext_resource path="res://art/brick_background.jpg" type="Texture" id=3]
-[ext_resource path="res://Brick02.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Levels/Level01.gd" type="Script" id=5]
+[ext_resource path="res://bricks/Brick02.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Levels/level01/Level01.gd" type="Script" id=5]
 
 [node name="Level01" type="Node2D"]
 script = ExtResource( 5 )
@@ -13,8 +13,9 @@ script = ExtResource( 5 )
 light_mask = 0
 margin_right = 1500.0
 margin_bottom = 2250.0
+rect_scale = Vector2( 0.54, 0.54 )
 texture = ExtResource( 3 )
-stretch_mode = 2
+stretch_mode = 1
 __meta__ = {
 "_edit_use_anchors_": true
 }
