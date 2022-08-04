@@ -42,5 +42,4 @@ animation = "brick03"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 4 )
 
-[connection signal="brick_break03" from="." to="." method="_is_hit_03"]
 [connection signal="body_entered" from="Brick03Area" to="." method="_is_hit"]

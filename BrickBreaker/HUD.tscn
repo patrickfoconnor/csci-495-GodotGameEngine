@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://fonts/Xolonium-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://HUD.gd" type="Script" id=2]
@@ -7,20 +7,11 @@
 size = 64
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=3]
-size = 54
-font_data = ExtResource( 1 )
-
-[sub_resource type="InputEventAction" id=4]
-action = "start_game"
-
-[sub_resource type="ShortCut" id=5]
-shortcut = SubResource( 4 )
-
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource( 2 )
 
 [node name="Message" type="Label" parent="."]
+visible = false
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
@@ -30,20 +21,6 @@ custom_fonts/font = SubResource( 2 )
 text = "Break them bricks!"
 align = 1
 autowrap = true
-
-[node name="StartButton" type="Button" parent="."]
-visible = false
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-margin_left = -79.5
-margin_top = -300.0
-margin_right = 79.5
-margin_bottom = -200.0
-custom_fonts/font = SubResource( 3 )
-shortcut = SubResource( 5 )
-text = "Start"
 
 [node name="MessageTimer" type="Timer" parent="."]
 wait_time = 2.0

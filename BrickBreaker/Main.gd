@@ -37,6 +37,7 @@ func game_over():
 	$Ball.hide()
 	$Paddle.hide()
 	$HUD.show_game_over()
+# warning-ignore:return_value_discarded
 	$HUD/MessageTimer
 	$Music.stop()
 	$DeathSound.play()
@@ -79,6 +80,7 @@ func new_game():
 	$Paddle.show()
 	$StartAim.show()
 	$HUD.show_message("Get Ready \n Aim with mouse \n and \nleft click")
+# warning-ignore:return_value_discarded
 	get_tree().change_scene("res://Levels/level01/Level01.tscn")
 	#$Music.play()
 

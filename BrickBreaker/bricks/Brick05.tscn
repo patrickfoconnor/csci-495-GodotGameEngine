@@ -23,7 +23,7 @@ animations = [ {
 [sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 47, 15 )
 
-[node name="Brick02" type="KinematicBody2D"]
+[node name="Brick05" type="KinematicBody2D"]
 position = Vector2( 400, 300 )
 script = ExtResource( 1 )
 __meta__ = {
@@ -31,14 +31,14 @@ __meta__ = {
 Green in color and has 4 hitpoints before disappearing"
 }
 
-[node name="Brick02Area" type="Area2D" parent="."]
+[node name="Brick05Area" type="Area2D" parent="."]
 collision_layer = 2
 collision_mask = 3
 __meta__ = {
 "_editor_description_": ""
 }
 
-[node name="Brick02CollisionShape2D" type="CollisionShape2D" parent="Brick02Area"]
+[node name="Brick02CollisionShape2D" type="CollisionShape2D" parent="Brick05Area"]
 shape = SubResource( 3 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
@@ -49,4 +49,4 @@ animation = "brick05"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 4 )
 
-[connection signal="body_entered" from="Brick02Area" to="." method="_is_hit_05"]
+[connection signal="body_entered" from="Brick05Area" to="." method="_is_hit_05"]

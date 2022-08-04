@@ -9,7 +9,7 @@ var health = 3
 var fresh_connect_brick01 = true
 
 func _ready():
-	$AnimatedSprite.animation = "brick01"
+	
 # warning-ignore:return_value_discarded
 	if fresh_connect_brick01:
 		#$Brick01Area.connect("body_entered", self, "_is_hit_01")

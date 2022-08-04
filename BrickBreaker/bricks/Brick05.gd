@@ -8,7 +8,7 @@ signal brick_break05
 var health = 7
 
 func _ready():
-	$AnimatedSprite.animation = "brick05"
+	#$AnimatedSprite.animation = "brick05"
 # warning-ignore:return_value_discarded
 	$Brick02Area.connect("body_entered", self, "_is_hit_05")
 

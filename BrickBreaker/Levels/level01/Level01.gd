@@ -2,8 +2,8 @@ extends Node2D
 
 #signal level_complete
 
-var total_bricks = 1
-#var total_bricks = 14
+#var total_bricks = 1
+var total_bricks = 14
 
 # Used to signal that all bricks on level have been broken
 func _process(_delta):
@@ -23,3 +23,12 @@ func check_bricks_left():
 	else:
 		return true
 
+
+
+func _on_brick_break01():
+	$Main/TopBar/ScoreBoard._on_brick01_broken_score()
+	#brick_broken()
+
+func _on_brick_break02():
+	$Main/TopBar/ScoreBoard._on_brick02_broken_score()
+	#brick_broken()

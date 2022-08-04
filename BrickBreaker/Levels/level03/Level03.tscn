@@ -84,7 +84,7 @@ position = Vector2( 515, 257 )
 position = Vector2( 119, 327 )
 
 [node name="Brick03-2" parent="." instance=ExtResource( 5 )]
-position = Vector2( 317, 327 )
+position = Vector2( 317, 326 )
 
 [node name="Brick03-3" parent="." instance=ExtResource( 5 )]
 position = Vector2( 218, 327 )
@@ -134,13 +134,6 @@ position = Vector2( 416, 222 )
 [connection signal="brick_break01" from="brick01-16" to="." method="brick_broken"]
 [connection signal="brick_break01" from="brick01-17" to="." method="brick_broken"]
 [connection signal="brick_break01" from="brick01-18" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-1" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-2" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-3" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-4" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-5" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-6" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-7" to="." method="brick_broken"]
 [connection signal="brick_break01" from="Brick04-1" to="." method="brick_broken"]
 [connection signal="brick_break01" from="Brick04-2" to="." method="brick_broken"]
 [connection signal="brick_break02" from="Brick02-1" to="." method="brick_broken"]

@@ -2,8 +2,8 @@ extends Node2D
 
 #signal level_complete03
 
-var total_bricks = 1
-#var total_bricks = 30
+#var total_bricks = 1
+var total_bricks = 30
 
 # Used to signal that all bricks on level have been broken
 func _process(_delta):

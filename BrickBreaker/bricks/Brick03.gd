@@ -2,8 +2,6 @@ extends KinematicBody2D
 
 # Brick Type 03
 
-signal brick_break03
-
 var health = 5
 
 func _ready():
@@ -12,7 +10,6 @@ func _ready():
 	
 func _is_hit_03(_delta):
 	if (health ==  1):
-		emit_signal("brick_break03")
 		queue_free()
 	else:
 		health -= 1

@@ -25,174 +25,174 @@ __meta__ = {
 
 [node name="brick01-1" parent="." instance=ExtResource( 4 )]
 light_mask = 0
-position = Vector2( 50, 497 )
+position = Vector2( 50, 459 )
 
 [node name="brick01-2" parent="." instance=ExtResource( 4 )]
-position = Vector2( 366, 531 )
+position = Vector2( 366, 493 )
 
 [node name="brick01-3" parent="." instance=ExtResource( 4 )]
-position = Vector2( 366, 566 )
+position = Vector2( 366, 528 )
 
 [node name="brick01-4" parent="." instance=ExtResource( 4 )]
-position = Vector2( 366, 252 )
+position = Vector2( 366, 214 )
 
 [node name="brick01-5" parent="." instance=ExtResource( 4 )]
-position = Vector2( 465, 566 )
+position = Vector2( 465, 528 )
 
 [node name="brick01-6" parent="." instance=ExtResource( 4 )]
-position = Vector2( 465, 531 )
+position = Vector2( 465, 493 )
 
 [node name="brick01-7" parent="." instance=ExtResource( 4 )]
-position = Vector2( 750, 497 )
+position = Vector2( 750, 459 )
 
 [node name="brick01-8" parent="." instance=ExtResource( 4 )]
-position = Vector2( 366, 287 )
+position = Vector2( 366, 249 )
 
 [node name="brick01-9" parent="." instance=ExtResource( 4 )]
-position = Vector2( 465, 287 )
+position = Vector2( 465, 249 )
 
 [node name="brick01-10" parent="." instance=ExtResource( 4 )]
-position = Vector2( 465, 252 )
+position = Vector2( 465, 214 )
 
 [node name="brick01-11" parent="." instance=ExtResource( 4 )]
-position = Vector2( 149, 462 )
+position = Vector2( 149, 424 )
 
 [node name="brick01-12" parent="." instance=ExtResource( 4 )]
-position = Vector2( 248, 427 )
+position = Vector2( 248, 389 )
 
 [node name="brick01-14" parent="." instance=ExtResource( 4 )]
-position = Vector2( 248, 357 )
+position = Vector2( 248, 319 )
 
 [node name="brick01-13" parent="." instance=ExtResource( 4 )]
-position = Vector2( 248, 392 )
+position = Vector2( 248, 354 )
 
 [node name="brick01-15" parent="." instance=ExtResource( 4 )]
-position = Vector2( 651, 462 )
+position = Vector2( 651, 424 )
 
 [node name="brick01-16" parent="." instance=ExtResource( 4 )]
-position = Vector2( 552, 427 )
+position = Vector2( 552, 389 )
 
 [node name="brick01-17" parent="." instance=ExtResource( 4 )]
-position = Vector2( 149, 322 )
+position = Vector2( 149, 284 )
 
 [node name="brick01-18" parent="." instance=ExtResource( 4 )]
-position = Vector2( 552, 392 )
+position = Vector2( 552, 354 )
 
 [node name="brick01-19" parent="." instance=ExtResource( 4 )]
-position = Vector2( 552, 357 )
+position = Vector2( 552, 319 )
 
 [node name="brick01-20" parent="." instance=ExtResource( 4 )]
-position = Vector2( 651, 322 )
+position = Vector2( 651, 284 )
 
 [node name="brick01-21" parent="." instance=ExtResource( 4 )]
 light_mask = 0
-position = Vector2( 750, 287 )
+position = Vector2( 750, 249 )
 
 [node name="brick01-22" parent="." instance=ExtResource( 4 )]
 light_mask = 0
-position = Vector2( 50, 287 )
+position = Vector2( 50, 249 )
 
 [node name="brick01-23" parent="." instance=ExtResource( 4 )]
-position = Vector2( 366, 601 )
+position = Vector2( 366, 563 )
 
 [node name="brick01-24" parent="." instance=ExtResource( 4 )]
-position = Vector2( 267, 601 )
+position = Vector2( 267, 563 )
 
 [node name="brick01-25" parent="." instance=ExtResource( 4 )]
-position = Vector2( 564, 601 )
+position = Vector2( 564, 563 )
 
 [node name="brick01-26" parent="." instance=ExtResource( 4 )]
-position = Vector2( 465, 601 )
+position = Vector2( 465, 563 )
 
 [node name="brick01-27" parent="." instance=ExtResource( 4 )]
-position = Vector2( 366, 217 )
+position = Vector2( 366, 179 )
 
 [node name="brick01-28" parent="." instance=ExtResource( 4 )]
-position = Vector2( 564, 217 )
+position = Vector2( 564, 179 )
 
 [node name="brick01-29" parent="." instance=ExtResource( 4 )]
-position = Vector2( 465, 217 )
+position = Vector2( 465, 179 )
 
 [node name="brick01-30" parent="." instance=ExtResource( 4 )]
-position = Vector2( 267, 217 )
+position = Vector2( 267, 179 )
 
 [node name="Brick02-1" parent="." instance=ExtResource( 3 )]
-position = Vector2( 267, 252 )
+position = Vector2( 267, 214 )
 
 [node name="Brick02-2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 564, 566 )
+position = Vector2( 564, 528 )
 
 [node name="Brick02-3" parent="." instance=ExtResource( 3 )]
-position = Vector2( 267, 566 )
+position = Vector2( 267, 528 )
 
 [node name="Brick02-4" parent="." instance=ExtResource( 3 )]
-position = Vector2( 663, 601 )
+position = Vector2( 663, 563 )
 
 [node name="Brick02-5" parent="." instance=ExtResource( 3 )]
-position = Vector2( 564, 252 )
+position = Vector2( 564, 214 )
 
 [node name="Brick02-6" parent="." instance=ExtResource( 3 )]
-position = Vector2( 50, 427 )
+position = Vector2( 50, 389 )
 
 [node name="Brick02-7" parent="." instance=ExtResource( 3 )]
-position = Vector2( 149, 427 )
+position = Vector2( 149, 389 )
 
 [node name="Brick02-8" parent="." instance=ExtResource( 3 )]
-position = Vector2( 50, 357 )
+position = Vector2( 50, 319 )
 
 [node name="Brick02-9" parent="." instance=ExtResource( 3 )]
-position = Vector2( 149, 357 )
+position = Vector2( 149, 319 )
 
 [node name="Brick02-10" parent="." instance=ExtResource( 3 )]
-position = Vector2( 50, 462 )
+position = Vector2( 50, 424 )
 
 [node name="Brick02-11" parent="." instance=ExtResource( 3 )]
-position = Vector2( 50, 322 )
+position = Vector2( 50, 284 )
 
 [node name="Brick02-12" parent="." instance=ExtResource( 3 )]
-position = Vector2( 149, 392 )
+position = Vector2( 149, 354 )
 
 [node name="Brick02-13" parent="." instance=ExtResource( 3 )]
-position = Vector2( 651, 427 )
+position = Vector2( 651, 389 )
 
 [node name="Brick02-14" parent="." instance=ExtResource( 3 )]
-position = Vector2( 651, 392 )
+position = Vector2( 651, 354 )
 
 [node name="Brick02-15" parent="." instance=ExtResource( 3 )]
-position = Vector2( 651, 357 )
+position = Vector2( 651, 319 )
 
 [node name="Brick02-16" parent="." instance=ExtResource( 3 )]
-position = Vector2( 750, 322 )
+position = Vector2( 750, 284 )
 
 [node name="Brick02-17" parent="." instance=ExtResource( 3 )]
-position = Vector2( 750, 462 )
+position = Vector2( 750, 424 )
 
 [node name="Brick02-18" parent="." instance=ExtResource( 3 )]
-position = Vector2( 750, 357 )
+position = Vector2( 750, 319 )
 
 [node name="Brick02-19" parent="." instance=ExtResource( 3 )]
-position = Vector2( 750, 427 )
+position = Vector2( 750, 389 )
 
 [node name="Brick02-20" parent="." instance=ExtResource( 3 )]
-position = Vector2( 168, 601 )
+position = Vector2( 168, 563 )
 
 [node name="Brick02-21" parent="." instance=ExtResource( 3 )]
-position = Vector2( 663, 217 )
+position = Vector2( 663, 179 )
 
 [node name="Brick02-22" parent="." instance=ExtResource( 3 )]
-position = Vector2( 168, 217 )
+position = Vector2( 168, 179 )
 
 [node name="Brick03-1" parent="." instance=ExtResource( 5 )]
-position = Vector2( 750, 392 )
+position = Vector2( 750, 354 )
 
 [node name="Brick03-2" parent="." instance=ExtResource( 5 )]
-position = Vector2( 416, 322 )
+position = Vector2( 416, 284 )
 
 [node name="Brick03-3" parent="." instance=ExtResource( 5 )]
-position = Vector2( 50, 392 )
+position = Vector2( 50, 354 )
 
 [node name="Brick03-4" parent="." instance=ExtResource( 5 )]
-position = Vector2( 416, 496 )
+position = Vector2( 416, 458 )
 
 [connection signal="brick_break01" from="brick01-1" to="." method="brick_broken"]
 [connection signal="brick_break01" from="brick01-2" to="." method="brick_broken"]
@@ -246,7 +246,3 @@ position = Vector2( 416, 496 )
 [connection signal="brick_break02" from="Brick02-20" to="." method="brick_broken"]
 [connection signal="brick_break02" from="Brick02-21" to="." method="brick_broken"]
 [connection signal="brick_break02" from="Brick02-22" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-1" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-2" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-3" to="." method="brick_broken"]
-[connection signal="brick_break03" from="Brick03-4" to="." method="brick_broken"]

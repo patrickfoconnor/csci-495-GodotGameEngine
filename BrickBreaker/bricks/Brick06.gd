@@ -7,7 +7,7 @@ signal brick_break06
 var health = 8
 
 func _ready():
-	$AnimatedSprite.animation = "brick06"
+	#$AnimatedSprite.animation = "brick06"
 	$Brick03Area.connect("body_entered", self, "_is_hit_06")
 	
 func _is_hit_03(_delta):
