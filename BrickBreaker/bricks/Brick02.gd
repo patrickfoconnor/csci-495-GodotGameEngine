@@ -10,7 +10,7 @@ var health = 4
 func _ready():
 	$AnimatedSprite.animation = "brick02"
 # warning-ignore:return_value_discarded
-	$Brick02Area.connect("body_entered", self, "_is_hit_02")
+	#$Brick02Area.connect("body_entered", self, "_is_hit_02")
 
 func _is_hit_02(_delta):
 	if (health ==  1):
@@ -22,3 +22,7 @@ func _is_hit_02(_delta):
 			$AnimatedSprite.animation = "brick02_broke"
 			
 
+
+
+func _is_hit_05():
+	pass # Replace with function body.

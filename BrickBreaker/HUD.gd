@@ -5,7 +5,7 @@ signal start_game
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$NextLevelButton.hide()
+	pass
 
 
 func show_message(text):
@@ -18,22 +18,12 @@ func show_game_over():
 	show_message("Game Over")
 	# Wait for MessageTimer has counted down
 	yield($MessageTimer, "timeout")
-	$Message.text = "Break them \n bricks!"
-	$Message.show()
-	# Make a one-shot timer and wait for it to finish
-	yield(get_tree().create_timer(1), "timeout")
-	$StartButton.show()
 	
 func show_next_level(current_level):
 	var current_level_message = "Level " + str(current_level) + " Complete !"
 	show_message(current_level_message)
 	# Wait for MessageTimer has counted down
-	yield($MessageTimer, "timeout")
-	$Message.text = "Continue to Next..."
-	$Message.show()
-	# Make a one-shot timer and wait for it to finish
-	yield(get_tree().create_timer(1), "timeout")
-	$NextLevelButton.show()
+	yield($MessageTimer, "timeout")\
 
 func _on_MessageTimer_timeout():
 	$Message.hide()

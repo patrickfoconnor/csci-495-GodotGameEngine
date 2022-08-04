@@ -52,4 +52,4 @@ __meta__ = {
 Green in color and has 4 hitpoints before disappearing"
 }
 
-[connection signal="body_entered" from="Brick04Area" to="." method="_is_hit_01"]
+[connection signal="body_entered" from="Brick04Area" to="." method="_is_hit_04"]

@@ -10,12 +10,6 @@ var velocity = Vector2(0, 0)
 
 onready var initial_pos = position
 
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
 func _ready():
 	position = initial_pos
 	

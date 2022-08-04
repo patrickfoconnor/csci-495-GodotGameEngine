@@ -15,7 +15,7 @@ margin_right = 1500.0
 margin_bottom = 2250.0
 rect_scale = Vector2( 0.54, 0.54 )
 texture = ExtResource( 3 )
-stretch_mode = 1
+stretch_mode = 7
 __meta__ = {
 "_edit_use_anchors_": true
 }
@@ -27,6 +27,7 @@ light_mask = 0
 position = Vector2( 119, 300 )
 
 [node name="brick01-2" parent="." instance=ExtResource( 2 )]
+light_mask = 0
 position = Vector2( 218, 300 )
 
 [node name="brick01-3" parent="." instance=ExtResource( 2 )]

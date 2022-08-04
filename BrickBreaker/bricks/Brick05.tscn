@@ -9,14 +9,14 @@ extents = Vector2( 49, 17 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 3 ) ],
-"loop": false,
-"name": "brick05",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 2 ) ],
 "loop": false,
 "name": "brick05_broke",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": false,
+"name": "brick05",
 "speed": 5.0
 } ]
 
@@ -49,4 +49,4 @@ animation = "brick05"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 4 )
 
-[connection signal="body_entered" from="Brick02Area" to="." method="_is_hit_02"]
+[connection signal="body_entered" from="Brick02Area" to="." method="_is_hit_05"]
