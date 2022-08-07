@@ -3,7 +3,9 @@
 ## Documentation
 
 ### Playing the game
-- Clone or Download the repo
+- Clone or Download the repo 
+  - Cloning: If confused reference [Github Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+  - Downloading: If confused reference [Northwestern University Guide](https://sites.northwestern.edu/researchcomputing/resources/downloading-from-github/)
 - Once downloaded utilize the Godot Game Engine to open the existing .godot file
   - If confused reference the [godot website](https://godotengine.org/qa/53461/how-to-import-a-folder-containing-a-godot-project)
 - Once opened and loaded use the play button to start the game
