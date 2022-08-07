@@ -6,8 +6,6 @@
 - [ ] Refactoring
 - [ ] Other
 
-### Trello card link?
-
 ## Other Notes/Attachments
 
 ## `Meme`
