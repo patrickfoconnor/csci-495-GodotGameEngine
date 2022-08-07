@@ -1,5 +1,5 @@
 
-## General Tips and Painpoints for exploring and learning the GoDot Game Engine
+## General Tips and Painpoints for Exploring and Learning the GoDot Game Engine
 
 - The game gets bloated fast even within the tutorial 
 - Avoid complex signals and scenes until a basic understanding of nodes is held
@@ -18,18 +18,27 @@
 
 - As with many students in the class(I would assume) a basic introduction to game design would be quite helpful after understanding a ground level of the node system
 	- If these student have already taken python or even better a java class transitioning to gdscript will be relatively simple 
-		- Although signals and mapping those signals to 
+		- Although signals and mapping those signals to other nodes/functions can still be confusing
 
-## Great resources for exploration outside the general documentation can be found at:
+## Great Resources for Exploration 
 
-###
+### Video Tutorials
 
-- Not the greatest as it requires an email but is completely monetarily free. 
-  - https://www.gdquest.com/node-essentials-guides/
+- https://www.youtube.com/channel/UCnr9ojBEQGgwbcKsZC-2rIg
+- https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ/playlists
+- https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/playlists
+	- Don't let the name fool you. There are some excellent videos on this page
+- https://www.youtube.com/c/TheBuffED
+- https://www.youtube.com/playlist?list=PLPMN4vCRFdordS3E-3zi0Hdh7pAsbWQ6a
 
+### Text Tutorials
+
+- https://gdscript.com
+- https://docs.godotengine.org/en/stable/tutorials/2d/index.html
+- https://kidscancode.org/godot_recipes/
+- https://www.gdquest.com/node-essentials-guides/=
 - An excellent book that is very comprehensive and only $20 https://play.google.com/books/reader?id=3gBRDwAAQBAJ&pg=GBS.PA1&hl=en
 	- This book while it states 24hrs could be introduced as an entire year long course of information
-
 
 
 ### Some great game engine open source resources
