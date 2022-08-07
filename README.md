@@ -3,9 +3,9 @@ A repo for sharing notes, tips, and projects with Dr. Paxton of the Gianforte Sc
 
 ## Documentation
 
-General documentation for future developers can [be found here]()
+General documentation for future developers can [be found here](https://github.com/patrickfoconnor/csci-495-GodotGameEngine/blob/main/Documentation/GeneralDocumentation.md)
 
-Brick Breaker documentation for future developers can [be found here]()
+Brick Breaker documentation for future developers can [be found here](https://github.com/patrickfoconnor/csci-495-GodotGameEngine/blob/main/Documentation/BrickBreakerDocumentation.md)
 
 ### Repository Structure
 
