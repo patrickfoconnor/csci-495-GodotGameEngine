@@ -1,0 +1,141 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://art/brick_background.jpg" type="Texture" id=1]
+[ext_resource path="res://Main.tscn" type="PackedScene" id=2]
+[ext_resource path="res://bricks/Brick02.tscn" type="PackedScene" id=3]
+[ext_resource path="res://bricks/Brick01.tscn" type="PackedScene" id=4]
+[ext_resource path="res://bricks/Brick03.tscn" type="PackedScene" id=5]
+[ext_resource path="res://bricks/Brick04.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Levels/level03/Level03.gd" type="Script" id=7]
+
+[node name="Level03" type="Node2D"]
+script = ExtResource( 7 )
+
+[node name="Main" parent="." instance=ExtResource( 2 )]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+light_mask = 0
+margin_right = 1500.0
+margin_bottom = 2250.0
+rect_scale = Vector2( 0.54, 0.54 )
+texture = ExtResource( 1 )
+stretch_mode = 7
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="brick01-4" parent="." instance=ExtResource( 4 )]
+light_mask = 0
+position = Vector2( 119, 362 )
+
+[node name="brick01-1" parent="." instance=ExtResource( 4 )]
+light_mask = 0
+position = Vector2( 119, 397 )
+
+[node name="brick01-2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 218, 397 )
+
+[node name="brick01-3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 317, 397 )
+
+[node name="brick01-5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 515, 397 )
+
+[node name="brick01-6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 614, 397 )
+
+[node name="brick01-7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 713, 397 )
+
+[node name="brick01-8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 218, 362 )
+
+[node name="brick01-9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 317, 362 )
+
+[node name="brick01-10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 515, 362 )
+
+[node name="brick01-11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 614, 362 )
+
+[node name="brick01-12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 713, 362 )
+
+[node name="brick01-13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 218, 292 )
+
+[node name="brick01-14" parent="." instance=ExtResource( 4 )]
+position = Vector2( 317, 292 )
+
+[node name="brick01-15" parent="." instance=ExtResource( 4 )]
+position = Vector2( 515, 292 )
+
+[node name="brick01-16" parent="." instance=ExtResource( 4 )]
+position = Vector2( 614, 292 )
+
+[node name="brick01-17" parent="." instance=ExtResource( 4 )]
+position = Vector2( 317, 257 )
+
+[node name="brick01-18" parent="." instance=ExtResource( 4 )]
+position = Vector2( 515, 257 )
+
+[node name="Brick03-1" parent="." instance=ExtResource( 5 )]
+position = Vector2( 119, 327 )
+
+[node name="Brick03-2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 317, 326 )
+
+[node name="Brick03-3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 218, 327 )
+
+[node name="Brick03-4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 713, 327 )
+
+[node name="Brick03-5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 515, 327 )
+
+[node name="Brick03-6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 416, 327 )
+
+[node name="Brick03-7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 614, 327 )
+
+[node name="Brick04-1" parent="." instance=ExtResource( 6 )]
+position = Vector2( 416, 362 )
+
+[node name="Brick04-2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 416, 397 )
+
+[node name="Brick02-1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 292 )
+
+[node name="Brick02-2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 257 )
+
+[node name="Brick02-3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 222 )
+
+[connection signal="brick_break01" from="brick01-4" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-1" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-2" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-3" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-5" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-6" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-7" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-8" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-9" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-10" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-11" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-12" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-13" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-14" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-15" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-16" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-17" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-18" to="." method="brick_broken"]
+[connection signal="brick_break01" from="Brick04-1" to="." method="brick_broken"]
+[connection signal="brick_break01" from="Brick04-2" to="." method="brick_broken"]
+[connection signal="brick_break02" from="Brick02-1" to="." method="brick_broken"]
+[connection signal="brick_break02" from="Brick02-2" to="." method="brick_broken"]
+[connection signal="brick_break02" from="Brick02-3" to="." method="brick_broken"]

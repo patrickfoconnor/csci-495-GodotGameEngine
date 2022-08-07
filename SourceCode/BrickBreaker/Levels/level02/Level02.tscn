@@ -1,0 +1,94 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://art/brick_background.jpg" type="Texture" id=1]
+[ext_resource path="res://Main.tscn" type="PackedScene" id=2]
+[ext_resource path="res://bricks/Brick02.tscn" type="PackedScene" id=3]
+[ext_resource path="res://bricks/Brick01.tscn" type="PackedScene" id=4]
+[ext_resource path="res://bricks/Brick03.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Levels/level02/Level02.gd" type="Script" id=6]
+
+[node name="Level02" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="Main" parent="." instance=ExtResource( 2 )]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+light_mask = 0
+margin_right = 1500.0
+margin_bottom = 2250.0
+rect_scale = Vector2( 0.54, 0.54 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="brick01-1" parent="." instance=ExtResource( 4 )]
+light_mask = 0
+position = Vector2( 119, 420 )
+
+[node name="brick01-2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 218, 420 )
+
+[node name="brick01-3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 317, 420 )
+
+[node name="brick01-5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 515, 420 )
+
+[node name="brick01-6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 614, 420 )
+
+[node name="brick01-7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 713, 420 )
+
+[node name="Brick02-1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 119, 385 )
+
+[node name="Brick02-2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 218, 385 )
+
+[node name="Brick02-3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 317, 385 )
+
+[node name="Brick02-5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 515, 385 )
+
+[node name="Brick02-6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 614, 385 )
+
+[node name="Brick02-7" parent="." instance=ExtResource( 3 )]
+position = Vector2( 713, 385 )
+
+[node name="Brick03-1" parent="." instance=ExtResource( 5 )]
+position = Vector2( 119, 350 )
+
+[node name="Brick03-2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 317, 350 )
+
+[node name="Brick03-3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 119, 315 )
+
+[node name="Brick03-4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 713, 350 )
+
+[node name="Brick03-5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 515, 350 )
+
+[node name="Brick03-6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 416, 350 )
+
+[node name="Brick03-7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 713, 315 )
+
+[connection signal="brick_break01" from="brick01-1" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-2" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-3" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-5" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-6" to="." method="brick_broken"]
+[connection signal="brick_break01" from="brick01-7" to="." method="brick_broken"]
+[connection signal="brick_break02" from="Brick02-1" to="." method="brick_broken"]
+[connection signal="brick_break02" from="Brick02-2" to="." method="brick_broken"]
+[connection signal="brick_break02" from="Brick02-3" to="." method="brick_broken"]
+[connection signal="brick_break02" from="Brick02-5" to="." method="brick_broken"]
+[connection signal="brick_break02" from="Brick02-6" to="." method="brick_broken"]
+[connection signal="brick_break02" from="Brick02-7" to="." method="brick_broken"]
