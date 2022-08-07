@@ -52,7 +52,7 @@ After pushing changes you're ready to open a pull request.
 - Go to the pull requests tab
 - Select "New Pull Request"
 - Select "main" as the base branch and the branch you pushed as the compare branch
-- Follow the format of [this template]() to begin describing the changes in your pull request
+- Follow the format of [this template](https://github.com/patrickfoconnor/csci-495-GodotGameEngine/blob/main/.github/pull_request_template.md) to begin describing the changes in your pull request
 - Open your request and wait for it to be merged!
 
 
