@@ -26,7 +26,9 @@ csci-495-GodotGameEngine
     └───BrickBreakerDocumentation
 ```
 
-### Cloning
+### Cloning 
+
+----- I would suggest not digging deeper unless you are experienced with github or would like to learn a new skill ----
 
 The project can simply be cloned with `git clone git@github.com:patrickfoconnor/csci-495-GodotGameEngine.git`
 
