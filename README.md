@@ -58,4 +58,4 @@ After pushing changes you're ready to open a pull request.
 
 ## Issues
 
-Any development issues or bugs should be tracked through the [repository issue page]()
+Any development issues or bugs should be tracked through the [repository issue page](https://github.com/patrickfoconnor/csci-495-GodotGameEngine/issues)
