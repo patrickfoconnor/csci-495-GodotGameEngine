@@ -2,6 +2,13 @@
 
 ## Documentation
 
+### Playing the game
+- Clone or Download the repo
+- Once downloaded utilize the Godot Game Engine to open the existing .godot file
+  - If confused reference the [godot website](https://godotengine.org/qa/53461/how-to-import-a-folder-containing-a-godot-project)
+- Once opened and loaded use the play button to start the game
+  - If the game bugs out utilize the refresh button that has now replaced the play button to restart game 
+  - Please submit an issue if it is a new bug that has not been identified
 
 ### Features that still need implementation
 - [ ] Retry button on game over
